@@ -57,16 +57,5 @@ SEWA is a real-time clinical monitoring application designed to assist healthcar
 ## 🧪 Simulation
 The application runs in a simulated mode by default, generating mock data for a set of ICU patients. You can pause/resume the simulation directly from the dashboard to inspect specific states.
 
-## � Screenshots
-
-### Landing Page
-![Landing Page](./screenshots/landing-page.png)
-
-### Sepsis Monitoring Dashboard
-![Dashboard](./screenshots/dashboard.png)
-
-### Audit & Compliance Log
-![Audit Log](./screenshots/audit-log.png)
-
 ## �📋 License
 Private - For Internal Use Only.
