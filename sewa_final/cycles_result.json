@@ -1,0 +1,226 @@
+[
+  {
+    "cycle": 1,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 168.1,
+        "rr": 22.3,
+        "map": 80.2,
+        "lac": 2.07,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 106.0,
+        "rr": 17.5,
+        "map": 68.0,
+        "lac": 1.62,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 122.3,
+        "rr": 20.9,
+        "map": 40.0,
+        "lac": 0,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  },
+  {
+    "cycle": 2,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 152.5,
+        "rr": 19.7,
+        "map": 53.1,
+        "lac": 1.37,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 160.5,
+        "rr": 23.1,
+        "map": 46.5,
+        "lac": 1.63,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 0,
+        "rr": 22.1,
+        "map": 81.9,
+        "lac": 1.96,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  },
+  {
+    "cycle": 3,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 134.9,
+        "rr": 22.2,
+        "map": 48.3,
+        "lac": 1.79,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 89.6,
+        "rr": 26.3,
+        "map": 53.0,
+        "lac": 3.04,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 117.2,
+        "rr": 13.6,
+        "map": 70.1,
+        "lac": 1.57,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  },
+  {
+    "cycle": 4,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 118.6,
+        "rr": 17.0,
+        "map": 69.4,
+        "lac": 1.75,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 0,
+        "rr": 19.5,
+        "map": 41.5,
+        "lac": 1.21,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 125.8,
+        "rr": 17.0,
+        "map": 72.2,
+        "lac": 2.1,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  },
+  {
+    "cycle": 5,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 97.1,
+        "rr": 20.8,
+        "map": 53.3,
+        "lac": 3.65,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 137.9,
+        "rr": 16.5,
+        "map": 69.7,
+        "lac": 1.66,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 146.8,
+        "rr": 19.8,
+        "map": 69.7,
+        "lac": 1.54,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  },
+  {
+    "cycle": 6,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 121.7,
+        "rr": 27.3,
+        "map": 60.9,
+        "lac": 2.99,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 122.4,
+        "rr": 29.3,
+        "map": 53.9,
+        "lac": 3.08,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 141.4,
+        "rr": 0,
+        "map": 58.9,
+        "lac": 2.19,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  },
+  {
+    "cycle": 7,
+    "patients": [
+      {
+        "pid": "P-53222",
+        "hr": 89.9,
+        "rr": 18.1,
+        "map": 62.4,
+        "lac": 1.1,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-6100B",
+        "hr": 0,
+        "rr": 22.8,
+        "map": 52.4,
+        "lac": 3.58,
+        "alert": null,
+        "alert_summary": null
+      },
+      {
+        "pid": "P-E4C16",
+        "hr": 81.3,
+        "rr": 0,
+        "map": 51.7,
+        "lac": 4.42,
+        "alert": null,
+        "alert_summary": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+{"Engine Init (ms)": 1951.4176845550537, "Inference Time (ms)": 1565.2785301208496, "Risk Level": "CRITICAL", "Risk Score": 0.8, "ML Probability": 0.02, "SIRS Score": 4, "qSOFA Score": 2, "Overrides": ["qSOFA Escalation Indicator", "Hemodynamic Shock Failsafe"], "Health": "OK"}

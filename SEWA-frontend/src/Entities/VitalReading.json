@@ -1,0 +1,51 @@
+{
+  "name": "VitalReading",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string",
+      "description": "Reference to patient"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Reading timestamp"
+    },
+    "heart_rate": {
+      "type": "number",
+      "description": "Heart rate (bpm)"
+    },
+    "respiratory_rate": {
+      "type": "number",
+      "description": "Respiratory rate (breaths/min)"
+    },
+    "map": {
+      "type": "number",
+      "description": "Mean Arterial Pressure (mmHg)"
+    },
+    "temperature": {
+      "type": "number",
+      "description": "Body temperature (\u00b0C)"
+    },
+    "spo2": {
+      "type": "number",
+      "description": "Oxygen saturation (%)"
+    },
+    "lactate": {
+      "type": "number",
+      "description": "Blood lactate (mmol/L)"
+    },
+    "wbc": {
+      "type": "number",
+      "description": "White blood cell count (\u00d710\u00b3/\u03bcL)"
+    },
+    "creatinine": {
+      "type": "number",
+      "description": "Serum creatinine (mg/dL)"
+    }
+  },
+  "required": [
+    "patient_id",
+    "timestamp"
+  ]
+}

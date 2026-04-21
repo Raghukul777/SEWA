@@ -1,0 +1,57 @@
+{
+  "name": "Patient",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string",
+      "description": "Unique patient identifier (e.g., ICU-001)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Patient name"
+    },
+    "age": {
+      "type": "number",
+      "description": "Patient age"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "Male",
+        "Female",
+        "Other"
+      ]
+    },
+    "admission_reason": {
+      "type": "string",
+      "description": "Reason for ICU admission"
+    },
+    "bed_number": {
+      "type": "string",
+      "description": "ICU bed number"
+    },
+    "trajectory": {
+      "type": "string",
+      "enum": [
+        "stable",
+        "early_sepsis",
+        "rapid_deterioration"
+      ],
+      "description": "Clinical trajectory type for simulation"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Stable",
+        "Warning",
+        "Critical"
+      ],
+      "default": "Stable"
+    }
+  },
+  "required": [
+    "patient_id",
+    "name",
+    "trajectory"
+  ]
+}

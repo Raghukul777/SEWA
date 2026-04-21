@@ -1,0 +1,8 @@
+{
+  "auroc_calibrated": 0.6131,
+  "auprc": 0.0541,
+  "brier_score": 0.0352,
+  "n_features": 61,
+  "label_shift_h": 6,
+  "elapsed_s": 66.8
+}

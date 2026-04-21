@@ -1,0 +1,84 @@
+{
+  "name": "AuditLog",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Exact time of the event"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "vital_reading_generated",
+        "alert_generated",
+        "alert_feedback_submitted",
+        "risk_level_changed",
+        "patient_status_changed",
+        "simulation_paused",
+        "simulation_resumed",
+        "patient_selected",
+        "system_initialized"
+      ],
+      "description": "Type of event being logged"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "info",
+        "warning",
+        "critical"
+      ],
+      "default": "info",
+      "description": "Severity level of the event"
+    },
+    "patient_id": {
+      "type": "string",
+      "description": "Patient identifier if event is patient-specific"
+    },
+    "patient_name": {
+      "type": "string",
+      "description": "Patient name for quick reference"
+    },
+    "user_email": {
+      "type": "string",
+      "description": "Email of user who triggered the action"
+    },
+    "event_description": {
+      "type": "string",
+      "description": "Human-readable description of the event"
+    },
+    "event_metadata": {
+      "type": "object",
+      "description": "Structured metadata about the event",
+      "additionalProperties": true
+    },
+    "previous_state": {
+      "type": "object",
+      "description": "State before the change (for change events)",
+      "additionalProperties": true
+    },
+    "new_state": {
+      "type": "object",
+      "description": "State after the change (for change events)",
+      "additionalProperties": true
+    },
+    "alert_id": {
+      "type": "string",
+      "description": "Alert identifier if event is alert-related"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH"
+      ],
+      "description": "Risk level associated with the event"
+    }
+  },
+  "required": [
+    "event_type",
+    "event_description"
+  ]
+}

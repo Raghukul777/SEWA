@@ -1,0 +1,884 @@
+[
+  {
+    "patient_id": "P-390",
+    "age": 61,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 84.5,
+      "spo2": 99.5,
+      "temperature": 35.6,
+      "sbp": 92.0,
+      "map": 72.0,
+      "dbp": 58.0,
+      "respiratory_rate": 14.0,
+      "lactate": 4.3,
+      "wbc": 1.0,
+      "creatinine": 1.1
+    }
+  },
+  {
+    "patient_id": "P-685",
+    "age": 60,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 90.0,
+      "spo2": 98.0,
+      "temperature": 37.3,
+      "sbp": 110.0,
+      "map": 69.0,
+      "dbp": 51.0,
+      "respiratory_rate": 16.0,
+      "lactate": 1.4,
+      "wbc": 13.1,
+      "creatinine": 0.8
+    }
+  },
+  {
+    "patient_id": "P-1140",
+    "age": 81,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 80.0,
+      "spo2": 100.0,
+      "temperature": 36.9,
+      "sbp": 131.0,
+      "map": 78.0,
+      "dbp": 48.0,
+      "respiratory_rate": 22.0,
+      "lactate": 1.7,
+      "wbc": 7.8,
+      "creatinine": 1.0
+    }
+  },
+  {
+    "patient_id": "P-1241",
+    "age": 63,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 74.0,
+      "spo2": 97.0,
+      "temperature": 38.5,
+      "sbp": 94.0,
+      "map": 56.0,
+      "dbp": 48.0,
+      "respiratory_rate": 23.0,
+      "lactate": 3.0,
+      "wbc": 8.9,
+      "creatinine": 1.2
+    }
+  },
+  {
+    "patient_id": "P-1365",
+    "age": 43,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 81.5,
+      "spo2": 100.0,
+      "temperature": 36.7,
+      "sbp": 127.5,
+      "map": 98.0,
+      "dbp": 76.0,
+      "respiratory_rate": 16.0,
+      "lactate": 1.9,
+      "wbc": 6.5,
+      "creatinine": 1.0
+    }
+  },
+  {
+    "patient_id": "P-2067",
+    "age": 56,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 81.0,
+      "spo2": 100.0,
+      "temperature": 37.2,
+      "sbp": 122.0,
+      "map": 82.5,
+      "dbp": 82.0,
+      "respiratory_rate": 13.0,
+      "lactate": 1.7,
+      "wbc": 24.1,
+      "creatinine": 0.9
+    }
+  },
+  {
+    "patient_id": "P-2106",
+    "age": 76,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 79.0,
+      "spo2": 96.0,
+      "temperature": 37.0,
+      "sbp": 90.0,
+      "map": 66.0,
+      "dbp": 52.0,
+      "respiratory_rate": 18.0,
+      "lactate": 1.6,
+      "wbc": 20.6,
+      "creatinine": 1.4
+    }
+  },
+  {
+    "patient_id": "P-2185",
+    "age": 31,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 107.5,
+      "spo2": 98.0,
+      "temperature": 38.2,
+      "sbp": 88.5,
+      "map": 66.0,
+      "dbp": 53.5,
+      "respiratory_rate": 19.0,
+      "lactate": 0.9,
+      "wbc": 7.9,
+      "creatinine": 9.3
+    }
+  },
+  {
+    "patient_id": "P-2827",
+    "age": 56,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 76.0,
+      "spo2": 100.0,
+      "temperature": 36.8,
+      "sbp": 135.0,
+      "map": 84.0,
+      "dbp": 64.0,
+      "respiratory_rate": 13.5,
+      "lactate": 1.6,
+      "wbc": 11.4,
+      "creatinine": 0.8
+    }
+  },
+  {
+    "patient_id": "P-3415",
+    "age": 54,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 97.0,
+      "spo2": 94.0,
+      "temperature": 36.9,
+      "sbp": 94.0,
+      "map": 65.0,
+      "dbp": 51.0,
+      "respiratory_rate": 23.5,
+      "lactate": 0.9,
+      "wbc": 22.1,
+      "creatinine": 0.6
+    }
+  },
+  {
+    "patient_id": "P-4129",
+    "age": 52,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 60.0,
+      "spo2": 99.0,
+      "temperature": 36.8,
+      "sbp": 104.0,
+      "map": 70.0,
+      "dbp": 57.0,
+      "respiratory_rate": 14.0,
+      "lactate": 1.4,
+      "wbc": 15.2,
+      "creatinine": 0.4
+    }
+  },
+  {
+    "patient_id": "P-4461",
+    "age": 49,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 97.0,
+      "spo2": 99.0,
+      "temperature": 37.6,
+      "sbp": 111.0,
+      "map": 79.0,
+      "dbp": 67.0,
+      "respiratory_rate": 14.0,
+      "lactate": 1.0,
+      "wbc": 10.7,
+      "creatinine": 0.3
+    }
+  },
+  {
+    "patient_id": "P-4659",
+    "age": 55,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 104.5,
+      "spo2": 99.0,
+      "temperature": 38.3,
+      "sbp": 146.0,
+      "map": 96.5,
+      "dbp": 73.5,
+      "respiratory_rate": 17.0,
+      "lactate": 1.8,
+      "wbc": 11.9,
+      "creatinine": 0.6
+    }
+  },
+  {
+    "patient_id": "P-6267",
+    "age": 68,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 56.0,
+      "spo2": 98.0,
+      "temperature": 35.0,
+      "sbp": 97.0,
+      "map": 64.0,
+      "dbp": 46.0,
+      "respiratory_rate": 17.0,
+      "lactate": 1.9,
+      "wbc": 8.4,
+      "creatinine": 2.3
+    }
+  },
+  {
+    "patient_id": "P-6349",
+    "age": 52,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 114.0,
+      "spo2": 100.0,
+      "temperature": 37.7,
+      "sbp": 115.0,
+      "map": 83.0,
+      "dbp": 68.0,
+      "respiratory_rate": 19.0,
+      "lactate": 1.7,
+      "wbc": 22.3,
+      "creatinine": 0.9
+    }
+  },
+  {
+    "patient_id": "P-6461",
+    "age": 80,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 98.0,
+      "spo2": 96.0,
+      "temperature": 37.6,
+      "sbp": 105.5,
+      "map": 62.7,
+      "dbp": 55.0,
+      "respiratory_rate": 12.0,
+      "lactate": 3.1,
+      "wbc": 9.6,
+      "creatinine": 1.4
+    }
+  },
+  {
+    "patient_id": "P-8506",
+    "age": 39,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 97.0,
+      "spo2": 100.0,
+      "temperature": 37.5,
+      "sbp": 99.0,
+      "map": 67.0,
+      "dbp": 59.0,
+      "respiratory_rate": 24.0,
+      "lactate": 6.6,
+      "wbc": 7.5,
+      "creatinine": 1.8
+    }
+  },
+  {
+    "patient_id": "P-9945",
+    "age": 61,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 116.0,
+      "spo2": 95.0,
+      "temperature": 37.3,
+      "sbp": 108.0,
+      "map": 79.0,
+      "dbp": 66.0,
+      "respiratory_rate": 24.0,
+      "lactate": 1.8,
+      "wbc": 10.3,
+      "creatinine": 1.1
+    }
+  },
+  {
+    "patient_id": "P-9951",
+    "age": 50,
+    "gender": "Male",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 75.0,
+      "spo2": 100.0,
+      "temperature": 37.2,
+      "sbp": 175.0,
+      "map": 113.0,
+      "dbp": 82.0,
+      "respiratory_rate": 12.0,
+      "lactate": 1.2,
+      "wbc": 12.9,
+      "creatinine": 1.7
+    }
+  },
+  {
+    "patient_id": "P-10930",
+    "age": 83,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 104.0,
+      "spo2": 99.0,
+      "temperature": 36.2,
+      "sbp": 101.8,
+      "map": 78.0,
+      "dbp": 64.0,
+      "respiratory_rate": 21.0,
+      "lactate": 3.3,
+      "wbc": 7.7,
+      "creatinine": 1.4
+    }
+  },
+  {
+    "patient_id": "P-12508",
+    "age": 45,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 123.5,
+      "spo2": 100.0,
+      "temperature": 34.2,
+      "sbp": 115.0,
+      "map": 76.0,
+      "dbp": 59.0,
+      "respiratory_rate": 14.0,
+      "lactate": 4.9,
+      "wbc": 11.3,
+      "creatinine": 0.6
+    }
+  },
+  {
+    "patient_id": "P-13193",
+    "age": 61,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 86.0,
+      "spo2": 98.5,
+      "temperature": 37.7,
+      "sbp": 103.0,
+      "map": 71.5,
+      "dbp": 54.5,
+      "respiratory_rate": 17.5,
+      "lactate": 2.1,
+      "wbc": 6.2,
+      "creatinine": 1.7
+    }
+  },
+  {
+    "patient_id": "P-13251",
+    "age": 63,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 76.0,
+      "spo2": 100.0,
+      "temperature": 36.6,
+      "sbp": 102.0,
+      "map": 73.0,
+      "dbp": 58.0,
+      "respiratory_rate": 12.0,
+      "lactate": 2.0,
+      "wbc": 11.2,
+      "creatinine": 1.0
+    }
+  },
+  {
+    "patient_id": "P-13271",
+    "age": 25,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 85.0,
+      "spo2": 96.0,
+      "temperature": 37.0,
+      "sbp": 142.0,
+      "map": 113.0,
+      "dbp": 94.0,
+      "respiratory_rate": 30.0,
+      "lactate": 8.4,
+      "wbc": 3.9,
+      "creatinine": 1.5
+    }
+  },
+  {
+    "patient_id": "P-13589",
+    "age": 58,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 63.0,
+      "spo2": 100.0,
+      "temperature": 36.9,
+      "sbp": 97.0,
+      "map": 64.0,
+      "dbp": 45.0,
+      "respiratory_rate": 19.0,
+      "lactate": 4.6,
+      "wbc": 7.3,
+      "creatinine": 1.8
+    }
+  },
+  {
+    "patient_id": "P-13690",
+    "age": 58,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 82.0,
+      "spo2": 100.0,
+      "temperature": 37.0,
+      "sbp": 120.0,
+      "map": 71.5,
+      "dbp": 44.0,
+      "respiratory_rate": 21.0,
+      "lactate": 5.7,
+      "wbc": 31.1,
+      "creatinine": 1.4
+    }
+  },
+  {
+    "patient_id": "P-14487",
+    "age": 65,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 85.0,
+      "spo2": 100.0,
+      "temperature": 38.2,
+      "sbp": 150.0,
+      "map": 96.0,
+      "dbp": 69.0,
+      "respiratory_rate": 8.0,
+      "lactate": 2.9,
+      "wbc": 5.9,
+      "creatinine": 0.3
+    }
+  },
+  {
+    "patient_id": "P-14621",
+    "age": 76,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 88.0,
+      "spo2": 100.0,
+      "temperature": 35.5,
+      "sbp": 93.0,
+      "map": 59.0,
+      "dbp": 32.0,
+      "respiratory_rate": 22.0,
+      "lactate": 2.3,
+      "wbc": 6.2,
+      "creatinine": 0.7
+    }
+  },
+  {
+    "patient_id": "P-15104",
+    "age": 51,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 149.0,
+      "spo2": 67.0,
+      "temperature": 39.6,
+      "sbp": 74.0,
+      "map": 59.0,
+      "dbp": 53.0,
+      "respiratory_rate": 26.0,
+      "lactate": 3.8,
+      "wbc": 17.0,
+      "creatinine": 6.1
+    }
+  },
+  {
+    "patient_id": "P-15142",
+    "age": 32,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 81.0,
+      "spo2": 100.0,
+      "temperature": 35.6,
+      "sbp": 126.0,
+      "map": 95.0,
+      "dbp": 74.5,
+      "respiratory_rate": 19.0,
+      "lactate": 4.0,
+      "wbc": 11.0,
+      "creatinine": 0.9
+    }
+  },
+  {
+    "patient_id": "P-15379",
+    "age": 40,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 117.0,
+      "spo2": 100.0,
+      "temperature": 37.8,
+      "sbp": 134.0,
+      "map": 90.0,
+      "dbp": 72.0,
+      "respiratory_rate": 19.5,
+      "lactate": 2.4,
+      "wbc": 9.7,
+      "creatinine": 0.7
+    }
+  },
+  {
+    "patient_id": "P-15649",
+    "age": 63,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 96.0,
+      "spo2": 100.0,
+      "temperature": 36.1,
+      "sbp": 115.0,
+      "map": 81.0,
+      "dbp": 64.0,
+      "respiratory_rate": 16.0,
+      "lactate": 2.0,
+      "wbc": 13.3,
+      "creatinine": 0.6
+    }
+  },
+  {
+    "patient_id": "P-15675",
+    "age": 60,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 91.0,
+      "spo2": 92.0,
+      "temperature": 35.3,
+      "sbp": 117.0,
+      "map": 88.0,
+      "dbp": 74.0,
+      "respiratory_rate": 22.0,
+      "lactate": 4.8,
+      "wbc": 21.4,
+      "creatinine": 0.6
+    }
+  },
+  {
+    "patient_id": "P-16818",
+    "age": 70,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 75.0,
+      "spo2": 96.0,
+      "temperature": 34.8,
+      "sbp": 118.0,
+      "map": 83.0,
+      "dbp": 60.0,
+      "respiratory_rate": 16.0,
+      "lactate": 1.1,
+      "wbc": 15.4,
+      "creatinine": 5.8
+    }
+  },
+  {
+    "patient_id": "P-16959",
+    "age": 43,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 109.0,
+      "spo2": 100.0,
+      "temperature": 37.4,
+      "sbp": 173.0,
+      "map": 113.0,
+      "dbp": 89.0,
+      "respiratory_rate": 16.5,
+      "lactate": 3.5,
+      "wbc": 4.9,
+      "creatinine": 0.9
+    }
+  },
+  {
+    "patient_id": "P-17437",
+    "age": 58,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 116.0,
+      "spo2": 97.0,
+      "temperature": 38.2,
+      "sbp": 84.0,
+      "map": 51.0,
+      "dbp": 41.0,
+      "respiratory_rate": 26.0,
+      "lactate": 2.3,
+      "wbc": 2.5,
+      "creatinine": 0.9
+    }
+  },
+  {
+    "patient_id": "P-17525",
+    "age": 68,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 60.0,
+      "spo2": 98.0,
+      "temperature": 36.2,
+      "sbp": 116.5,
+      "map": 80.5,
+      "dbp": 59.5,
+      "respiratory_rate": 20.0,
+      "lactate": 1.8,
+      "wbc": 13.7,
+      "creatinine": 0.8
+    }
+  },
+  {
+    "patient_id": "P-17752",
+    "age": 70,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 78.0,
+      "spo2": 100.0,
+      "temperature": 37.1,
+      "sbp": 102.5,
+      "map": 68.0,
+      "dbp": 49.5,
+      "respiratory_rate": 12.0,
+      "lactate": 4.7,
+      "wbc": 3.4,
+      "creatinine": 1.0
+    }
+  },
+  {
+    "patient_id": "P-17933",
+    "age": 79,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 94.0,
+      "spo2": 100.0,
+      "temperature": 35.6,
+      "sbp": 110.0,
+      "map": 86.0,
+      "dbp": 73.0,
+      "respiratory_rate": 19.0,
+      "lactate": 2.1,
+      "wbc": 6.5,
+      "creatinine": 0.8
+    }
+  },
+  {
+    "patient_id": "P-18534",
+    "age": 78,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 87.0,
+      "spo2": 99.5,
+      "temperature": 37.5,
+      "sbp": 97.0,
+      "map": 57.0,
+      "dbp": 41.0,
+      "respiratory_rate": 12.5,
+      "lactate": 1.1,
+      "wbc": 22.3,
+      "creatinine": 1.2
+    }
+  },
+  {
+    "patient_id": "P-19019",
+    "age": 77,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 103.0,
+      "spo2": 98.0,
+      "temperature": 37.9,
+      "sbp": 104.0,
+      "map": 73.0,
+      "dbp": 56.0,
+      "respiratory_rate": 17.0,
+      "lactate": 1.1,
+      "wbc": 10.7,
+      "creatinine": 1.0
+    }
+  },
+  {
+    "patient_id": "P-19137",
+    "age": 69,
+    "gender": "Female",
+    "trajectory": "stable",
+    "vitals": {
+      "heart_rate": 74.0,
+      "spo2": 100.0,
+      "temperature": 36.1,
+      "sbp": 92.0,
+      "map": 56.0,
+      "dbp": 41.0,
+      "respiratory_rate": 23.0,
+      "lactate": 1.7,
+      "wbc": 21.9,
+      "creatinine": 7.1
+    }
+  },
+  {
+    "patient_id": "P-19277",
+    "age": 74,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 123.0,
+      "spo2": 93.0,
+      "temperature": 38.2,
+      "sbp": 155.0,
+      "map": 94.0,
+      "dbp": 64.0,
+      "respiratory_rate": 21.0,
+      "lactate": 2.0,
+      "wbc": 5.7,
+      "creatinine": 0.6
+    }
+  },
+  {
+    "patient_id": "P-19375",
+    "age": 53,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 82.0,
+      "spo2": 100.0,
+      "temperature": 35.9,
+      "sbp": 132.0,
+      "map": 79.0,
+      "dbp": 53.0,
+      "respiratory_rate": 16.0,
+      "lactate": 3.6,
+      "wbc": 3.8,
+      "creatinine": 0.7
+    }
+  },
+  {
+    "patient_id": "P-19849",
+    "age": 80,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 83.0,
+      "spo2": 95.0,
+      "temperature": 36.5,
+      "sbp": 131.0,
+      "map": 87.0,
+      "dbp": 65.0,
+      "respiratory_rate": 22.0,
+      "lactate": 5.6,
+      "wbc": 39.0,
+      "creatinine": 1.5
+    }
+  },
+  {
+    "patient_id": "P-20511",
+    "age": 51,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 96.0,
+      "spo2": 100.0,
+      "temperature": 37.6,
+      "sbp": 112.0,
+      "map": 83.0,
+      "dbp": 68.0,
+      "respiratory_rate": 23.0,
+      "lactate": 3.9,
+      "wbc": 14.7,
+      "creatinine": 0.7
+    }
+  },
+  {
+    "patient_id": "P-100559",
+    "age": 66,
+    "gender": "Male",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 90.0,
+      "spo2": 100.0,
+      "temperature": 36.3,
+      "sbp": 89.0,
+      "map": 70.0,
+      "dbp": 53.0,
+      "respiratory_rate": 10.0,
+      "lactate": 2.67,
+      "wbc": 8.8,
+      "creatinine": 1.53
+    }
+  },
+  {
+    "patient_id": "P-108952",
+    "age": 66,
+    "gender": "Male",
+    "trajectory": "sepsis",
+    "vitals": {
+      "heart_rate": 90.0,
+      "spo2": 100.0,
+      "temperature": 38.4,
+      "sbp": 98.0,
+      "map": 67.0,
+      "dbp": 39.0,
+      "respiratory_rate": 28.0,
+      "lactate": 6.02,
+      "wbc": 29.8,
+      "creatinine": 2.73
+    }
+  },
+  {
+    "patient_id": "P-119822",
+    "age": 71,
+    "gender": "Female",
+    "trajectory": "early_sepsis",
+    "vitals": {
+      "heart_rate": 70.5,
+      "spo2": 100.0,
+      "temperature": 35.4,
+      "sbp": 110.0,
+      "map": 74.5,
+      "dbp": 52.5,
+      "respiratory_rate": 12.0,
+      "lactate": 5.99,
+      "wbc": 2.8,
+      "creatinine": 1.03
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "name": "Alert",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string",
+      "description": "Reference to patient"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH"
+      ]
+    },
+    "clinical_summary": {
+      "type": "string",
+      "description": "Current clinical status summary"
+    },
+    "triggered_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of triggered warning criteria"
+    },
+    "recommended_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Protocol-style recommended next steps"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "feedback": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "valid",
+        "false_positive"
+      ],
+      "default": "pending"
+    },
+    "feedback_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "patient_id",
+    "risk_level",
+    "triggered_criteria"
+  ]
+}

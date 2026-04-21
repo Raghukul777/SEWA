@@ -1,0 +1,73 @@
+{
+  "patients": [
+    {
+      "id": "P-53222",
+      "name": "Arjun Reddy",
+      "synth_id": 1
+    },
+    {
+      "id": "P-6100B",
+      "name": "krishna",
+      "synth_id": 1
+    },
+    {
+      "id": "P-E4C16",
+      "name": "Lakshmi Devi",
+      "synth_id": 1
+    }
+  ],
+  "pipeline_results": [
+    {
+      "patient_id": "P-53222",
+      "vitals": {
+        "hr": 83.30650394476986,
+        "rr": 16.78456176857682,
+        "temp": 38.2767555170198,
+        "spo2": null,
+        "lac": 1.1900487565743425,
+        "map": 71.6904161357033
+      },
+      "sirs_count": 0,
+      "alert_generated": false,
+      "alert_risk": null,
+      "alert_summary": null,
+      "suppressed_by_30min_window": false,
+      "existing_alerts_in_30min": []
+    },
+    {
+      "patient_id": "P-6100B",
+      "vitals": {
+        "hr": 75.8544607848273,
+        "rr": 15.54513612543379,
+        "temp": 35.16206360547807,
+        "spo2": 96.31907135146236,
+        "lac": 1.2268136738025015,
+        "map": 75.1750956898675
+      },
+      "sirs_count": 1,
+      "alert_generated": false,
+      "alert_risk": null,
+      "alert_summary": null,
+      "suppressed_by_30min_window": false,
+      "existing_alerts_in_30min": []
+    },
+    {
+      "patient_id": "P-E4C16",
+      "vitals": {
+        "hr": 80.6839601035999,
+        "rr": 16.036784399795565,
+        "temp": 29.730747473971952,
+        "spo2": 99.83479818025783,
+        "lac": 1.1776250172996852,
+        "map": 76.01008538149682
+      },
+      "sirs_count": 1,
+      "alert_generated": false,
+      "alert_risk": null,
+      "alert_summary": null,
+      "suppressed_by_30min_window": false,
+      "existing_alerts_in_30min": []
+    }
+  ],
+  "recent_db_alerts": []
+}

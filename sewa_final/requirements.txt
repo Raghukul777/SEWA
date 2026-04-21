@@ -1,0 +1,40 @@
+# SEWA - Sepsis Early Warning Agent
+# Python Dependencies
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0  # Optional: for gradient boosting
+
+# LLM / Gemini API
+google-generativeai>=0.5.0
+
+# Utilities
+python-dotenv>=1.0.0  # For environment variables
+tqdm>=4.65.0  # Progress bars
+
+# Optional: For visualization during development
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For SHAP analysis (interpretability)
+shap>=0.42.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ── FastAPI REST API Stack ─────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9     # PostgreSQL driver
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.9
+httpx>=0.27.0          # For async HTTP in tests
+websockets>=12.0       # WebSocket support for real-time vitals stream
